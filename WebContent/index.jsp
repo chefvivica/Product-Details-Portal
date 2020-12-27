@@ -9,12 +9,6 @@
 </head>
 <body>
 	<%@page import="com.beans.Product"%>
-	<%
-		if (request.getParameter("error") != null) {
-
-		out.println("<b>Some field are missing, please fill out all the mandatory field.</b><br>");
-	}
-	%>
 
 	<h1>Add a new product</h1>
 	<p>Please fill all the mandatory field *</p>

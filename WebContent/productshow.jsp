@@ -12,6 +12,6 @@
 	<jsp:setProperty property="*" name="p"/>  
 	Name: <jsp:getProperty name="p" property="name" /><br>
 	Price: <jsp:getProperty name="p" property="price" /><br>
-	Catogory: <jsp:getProperty name="p" property="category" /><br>	
+	Category: <jsp:getProperty name="p" property="category" /><br>	
 </body>
 </html>
